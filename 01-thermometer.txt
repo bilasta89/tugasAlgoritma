@@ -1,0 +1,23 @@
+---------------------------------------------
+|SET name = "Arrie Bhaskara Ilasta"         |
+|SET batch = "Joyful Jasper"                |
+|DISPLAY name + batch                       |
+|                                           |
+---------------------------------------------
+algoritm for thermometer			 
+                                           
+convert fahrenheit to celcius              
+BEGIN
+ let N = 86
+ let fahrenheit = (N - 32) * (5/9)
+ let kelvin = (N - 273.15)
+ let celcius = N
+ console.log (fahrenheit)
+ console.log (kelvin)
+ console.log (celcius)
+END
+
+Output
+30
+45
+86

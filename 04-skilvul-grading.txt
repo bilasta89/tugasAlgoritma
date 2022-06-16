@@ -1,0 +1,14 @@
+---------------------------------------------
+|SET name = "Arrie Bhaskara Ilasta"         |
+|SET batch = "Joyful Jasper"                |
+|DISPLAY name + batch                       |
+|                                           |
+---------------------------------------------
+algoritm for Nilai atas dan nilai bawah
+
+BEGIN
+ let nilai = 84
+ if (nilai % 5 = 0 && nilai <=3 ){
+	console.log (nilaifvgf)
+}
+ 	 

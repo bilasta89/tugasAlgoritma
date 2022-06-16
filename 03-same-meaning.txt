@@ -1,0 +1,52 @@
+---------------------------------------------
+|SET name = "Arrie Bhaskara Ilasta"         |
+|SET batch = "Joyful Jasper"                |
+|DISPLAY name + batch                       |
+|                                           |
+---------------------------------------------
+algoritm for Palindrome 
+
+BEGIN
+ let kata1 = "x"
+ let kata2 = "abba"
+ let kata3 = 101
+ let kata4 = "taco"
+ let kata5 = "kodok"
+ let kata6 = "ab"
+ let kata7 = "abaa"
+
+ function cekPalindrome(input){
+	let strArray = input.toLowerCase().split('')
+	let newArray = strArray.join('')
+	let reverseArr = [...newArr].reverse().join('')
+
+	if (newArr === reverseArr){
+		return true;
+ 	}else{
+		return false;
+}
+
+console.log(cekPalindrome(kata1))
+console.log(cekPalindrome(kata2))
+console.log(cekPalindrome(kata3))
+console.log(cekPalindrome(kata4))
+console.log(cekPalindrome(kata5))
+console.log(cekPalindrome(kata6))
+console.log(cekPalindrome(kata7))
+------------------------------------------------------------
+
+
+Input: x Output: TRUE
+
+Input: abba Output: TRUE
+
+Input: 101 Output: TRUE
+
+Input: taco cat Output: TRUE
+
+Input: kodok Output: TRUE
+
+Input: ab Output: FALSE
+
+Input: abaa Output: FALSE
+			 
